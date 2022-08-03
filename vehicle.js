@@ -51,6 +51,7 @@ class Vehicle {
         }
     }
     stop() {
+        console.log('engine off')
         this.started = false;
     }
 
